@@ -1,0 +1,82 @@
+.anabaslik{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menuler{
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
+    
+}
+
+#modelYazi{
+    margin-left: 25%; 
+    margin-right: 25%; 
+    margin-top: 0%;
+    display: inline;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    width: 50%; 
+    height:auto;
+
+    position:relative;
+    float:left;
+}
+#acilirmenu2{
+    display: none; /* Chech boxumuzu buradan görünmez kılıyoruz. */
+  }
+#menum2 { display:none;	}
+#acilirmenu2:checked + #menum2 { display:block;	}
+
+#modelYazi3{
+    margin-left: 25%; 
+    margin-right: 25%; 
+    margin-top: 0%;
+    display: inline;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    width: 50%; 
+    height:auto;
+
+    position:relative;
+    float:left;
+}
+#acilirmenu3{
+    display: none; /* Chech boxumuzu buradan görünmez kılıyoruz. */
+  }
+#menum3 { display:none;	}
+#acilirmenu3:checked + #menum3 { display:block;	}
+
+#main{
+    margin-left: 25%; 
+    margin-right: 25%; 
+    margin-top: 0%;
+    display: inline;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    width: auto; 
+    height:auto;
+}
+
+#left{
+    width: 50px;
+    height: 100px;
+    margin-left: 0px;
+    display: inline;
+    float: left;
+}
+
+#right{
+    width: 50px;
+    height: 100px;
+    margin-right: 12.1%;
+    margin-left: auto;
+    /*margin-top: 0px;*/
+    display: inline;
+    float: right;
+}
+
